@@ -3,11 +3,11 @@ import Link from "next/link";
 const apps = [
   {
     name: "Donor Link",
-    href: "/donor-link",
+    href: "https://donor-link-red.vercel.app",
   },
   {
     name: "Bud",
-    href: "/bud",
+    href: "https://bud-three.vercel.app",
   },
 ];
 
@@ -17,7 +17,7 @@ export default function HomePage() {
       <h1>Available Apps</h1>
       <div className="flex flex-col items-center justify-center gap-2">
         {apps.map((app) => (
-          <Link href={app.href} key={app.name} className="text-xl w-full text-center font-bold border-2 border-gray-300 rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link href={app.href} key={app.name} className="text-xl w-full text-center font-bold border-2 border-gray-300 rounded-md px-4 py-2 hover:bg-gray-100" target="_blank">
             {app.name}
           </Link>
         ))}
