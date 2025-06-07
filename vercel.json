@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/donor-link/:path*",
-      "destination": "https://donor-link-red.vercel.app/donor-link/:path*"
+      "destination": "https://donor-link-red.vercel.app/:path*"
     },
     {
       "source": "/bud/:path*",
-      "destination": "https://bud-three.vercel.app/bud/:path*"
+      "destination": "https://bud-three.vercel.app/:path*"
     }
   ]
 }
