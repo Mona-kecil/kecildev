@@ -6,7 +6,7 @@
     },
     {
       "source": "/bud/:path*",
-      "destination": "https://bud-three.vercel.app/bud/bud/:path*"
+      "destination": "https://bud-three.vercel.app/bud/:path*"
     }
   ]
 }
