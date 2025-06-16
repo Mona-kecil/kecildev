@@ -3,11 +3,11 @@ import Link from "next/link";
 const apps = [
   {
     name: "Donor Link",
-    href: "https://donor-link-red.vercel.app",
+    href: "https://donor-link.kecil.dev",
   },
   {
     name: "Bud",
-    href: "https://bud-three.vercel.app",
+    href: "https://bud.kecil.dev",
   },
 ];
 
